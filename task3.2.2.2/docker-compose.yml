@@ -1,0 +1,7 @@
+services:
+  server:
+    build: /home/amir/go/src/studentgit.kata.academy/alikkamalrus_gmail.com/go-kata//course3/2.server/2.server_http/task3.2.2.2
+    ports:
+      - "8080:8080"
+    env_file:
+      - /home/amir/go/src/studentgit.kata.academy/alikkamalrus_gmail.com/go-kata/course3/2.server/2.server_http/task3.2.2.2/.env
